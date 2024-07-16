@@ -7,6 +7,7 @@ import img6 from "../assets/project5.png";
 import img7 from "../assets/pacman.png";
 import img8 from "../assets/1942.png";
 import img9 from "../assets/fortune-cookie.png";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -35,14 +36,24 @@ const Projects = () => {
               This is my first project I&apos;ve done in Uplift Bootcamp. I used
               HTML5 and CSS3.
             </p>
-            <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
-              <a
-                href="https://bryanbalantes.github.io/p1-web-dev-portfolio/"
-                target="_blank"
-              >
-                Visite Site
-              </a>
-            </button>
+            <div className="flex justify-center items-center gap-5">
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden">
+                <a
+                  href="https://bryanbalantes.github.io/p1-web-dev-portfolio/"
+                  target="_blank"
+                >
+                  Visite Site
+                </a>
+              </button>
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-2 px-9  mt-5 uppercase relative overflow-hidden">
+                <a
+                  href="https://github.com/BryanBalantes/BryanBalantes.github.io/tree/main/p1-web-dev-portfolio"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -60,11 +71,21 @@ const Projects = () => {
               This is my second project I&apos;ve done in Uplift Bootcamp. I
               used HTML5, CSS3, JavaScript, and unsplash API.
             </p>
-            <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
-              <a href="https://main--js-api-app.netlify.app/" target="_blank">
-                Visite Site
-              </a>
-            </button>
+            <div className="flex justify-center items-center gap-5">
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
+                <a href="https://main--js-api-app.netlify.app/" target="_blank">
+                  Visite Site
+                </a>
+              </button>
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-2 px-9  mt-5 uppercase relative overflow-hidden">
+                <a
+                  href="https://github.com/BryanBalantes/BryanBalantes.github.io/tree/main/js-api-app"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -82,11 +103,21 @@ const Projects = () => {
               This is my 3rd and 4th project I&apos;ve done in Uplift Bootcamp.
               I used React.js, MongoDB, and Node.js.
             </p>
-            <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
-              <a href="https://p4-node-app-one.vercel.app/" target="_blank">
-                Visite Site
-              </a>
-            </button>
+            <div className="flex justify-center items-center gap-5">
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
+                <a href="https://p4-node-app-one.vercel.app/" target="_blank">
+                  Visite Site
+                </a>
+              </button>
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-2 px-9  mt-5 uppercase relative overflow-hidden">
+                <a
+                  href="https://github.com/BryanBalantes/p4-node-app/tree/main/"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -103,14 +134,24 @@ const Projects = () => {
             <p className="mt-1 text-white">
               This is one of our homeworks. I used React.js, and CSS3.
             </p>
-            <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
-              <a
-                href="https://hw-react-hr-directory.vercel.app/"
-                target="_blank"
-              >
-                Visite Site
-              </a>
-            </button>
+            <div className="flex justify-center items-center gap-5">
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
+                <a
+                  href="https://hw-react-hr-directory.vercel.app/"
+                  target="_blank"
+                >
+                  Visite Site
+                </a>
+              </button>
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-2 px-9  mt-5 uppercase relative overflow-hidden">
+                <a
+                  href="https://github.com/BryanBalantes/hw-react-hr-directory"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -128,11 +169,24 @@ const Projects = () => {
               This is one of our code along projects. We used React.js, Tailwind
               CSS3, MongoDB, Node.js, JWT, Socket.
             </p>
-            <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
-              <a href="https://blog-app-inky-omega.vercel.app" target="_blank">
-                Visite Site
-              </a>
-            </button>
+            <div className="flex justify-center items-center gap-5">
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
+                <a
+                  href="https://blog-app-inky-omega.vercel.app"
+                  target="_blank"
+                >
+                  Visite Site
+                </a>
+              </button>
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-2 px-9  mt-5 uppercase relative overflow-hidden">
+                <a
+                  href="https://github.com/BryanBalantes/blog-app/tree/main/"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -150,11 +204,21 @@ const Projects = () => {
               This is the Vendoor group project. We used React.js, Tailwind
               CSS3, MongoDB, and Node.js.
             </p>
-            <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
-              <a href="" target="_blank">
-                Visite Site
-              </a>
-            </button>
+            <div className="flex justify-center items-center gap-5">
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
+                <a href="" target="_blank">
+                  Visite Site
+                </a>
+              </button>
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-2 px-9  mt-5 uppercase relative overflow-hidden">
+                <a
+                  href="https://gitlab.com/uplift-code-camp/students/batch-19/group-2/fs-mern-app/-/tree/dev-branch?ref_type=heads"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -165,18 +229,28 @@ const Projects = () => {
           <img className="rounded" src={img7} alt="project1.png" />
           <div className="project_info mt-2">
             <h5 className="text-xl font-semibold text-center text-white">
-               PacMan Game
+              PacMan Game
             </h5>
             <p className="mt-1 text-slate-400">Description:</p>
             <p className="mt-1 text-white">
               This is village88 simple game challenge. I used HTML5 CSS3,
               JavaScript.
             </p>
-            <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
-              <a href="https://pacman-omega-two.vercel.app/" target="_blank">
-                Visite Site
-              </a>
-            </button>
+            <div className="flex justify-center items-center gap-5">
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
+                <a href="https://pacman-omega-two.vercel.app/" target="_blank">
+                  Visite Site
+                </a>
+              </button>
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-2 px-9  mt-5 uppercase relative overflow-hidden">
+                <a
+                  href="https://github.com/BryanBalantes/pacman"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -194,11 +268,21 @@ const Projects = () => {
               This is village88 simple game challenge. I used HTML5 CSS3,
               JavaScript.
             </p>
-            <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
-              <a href="https://1942-main.vercel.app/" target="_blank">
-                Visite Site
-              </a>
-            </button>
+            <div className="flex justify-center items-center gap-5">
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
+                <a href="https://1942-main.vercel.app/" target="_blank">
+                  Visite Site
+                </a>
+              </button>
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-2 px-9  mt-5 uppercase relative overflow-hidden">
+                <a
+                  href="https://github.com/BryanBalantes/1942-main"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -213,14 +297,27 @@ const Projects = () => {
             </h5>
             <p className="mt-1 text-slate-400">Description:</p>
             <p className="mt-1 text-white">
-              This is village88 simple activity / homework to be clone. I used HTML5 CSS3,
-              JavaScript.
+              This is village88 simple activity / homework to be clone. I used
+              HTML5 CSS3, JavaScript.
             </p>
-            <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
-              <a href="https://fortune-cookie-six.vercel.app/" target="_blank">
-                Visite Site
-              </a>
-            </button>
+            <div className="flex justify-center items-center gap-5">
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-1 px-1 mt-5 uppercase relative overflow-hidden ">
+                <a
+                  href="https://fortune-cookie-six.vercel.app/"
+                  target="_blank"
+                >
+                  Visite Site
+                </a>
+              </button>
+              <button className="shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-2 px-9  mt-5 uppercase relative overflow-hidden">
+                <a
+                  href="https://github.com/BryanBalantes/fortune_cookie"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+              </button>
+            </div>
           </div>
         </div>
       </div>
