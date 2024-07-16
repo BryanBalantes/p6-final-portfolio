@@ -22,12 +22,26 @@ const About = () => {
           About me
         </h1>
         <p data-aos="fade-left" className="text-justify">
-          I am Bryan M. Balantes, 31 years old single and a resident of Purok 5,
-          Lidong Sto. Domingo, Albay. I am holding two Bachelor&apos;s Degree,
-          one is Bachelor of Science in Computer Engineering which I obtained at
-          Aquinas University of Legazpi on March 31, 2015, and the other one is
-          Bachelor of Science in Information Technology at STI College of
-          Legazpi on April 26, 2019.
+          I&apos;m a motivated, committed, dedicated, and
+          hardworking individual. I do task or things that are towards achieving
+          my targets and always persistent in accomplishing them well. I hold
+          two Bachelor&apos;s Degrees: one in Computer Engineering obtained from
+          Aquinas University of Legazpi on March 31, 2015, and the other in
+          Information Technology from STI College of Legazpi on April 26, 2019.
+          I had the privilege of participating in online training program
+          facilitated by the Alvarez Foundation in collaboration with a coding
+          school, where I was fortunate to receive a scholarship. Additionally,
+          other training programs and online courses have given me the
+          opportunity to develop basic skills in languages such as Java, Python,
+          C#, JavaScript, and markup languages like HTML5 and CSS. I have also
+          special skills in photoshop, drawing and video editing. I had my work
+          experience as CCTV operator at Embarcadero Land Ventures Inc. from May
+          6, 2019 to November 29, 2019, and as clerk processor b at National
+          Housing Authority, Ligao City from February 15 to April 15, 2021 on a
+          job order status. However, I want to have a job where I could showcase
+          my skills, talents, and abilities in the field which I like most. I am
+          a bit shy and a silent type individual, however I know how to go along
+          well with others and work with the team.
         </p>
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
